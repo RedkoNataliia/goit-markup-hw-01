@@ -1,30 +1,123 @@
-:root{
+:root {
     --primery-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
     --logo-acent-color: #000000;
     --primery-acent-color: #2196f3;
     --primery-backgraund-color: #2f303a;
-
+    --primery-white: #fff;
+    --primery-dark-color: #212121;
+    --text-color: #757575;
+    
 }
-body{
+body {
     font-family: var(--primery-font);
     font-weight: 400;
     font-size: 14px;
 }
-.header-logo{
+.page-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.logo {
     font-family: var(--secondary-font);
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.03em;
-    color: var(--logo-acent-color);
+    color: var(--primery-acent-color);
 }
-.header-logo-acent{
+.header-logo-acent {
     color: var(--logo-acent-color);
 }
 
 a{
     text-decoration: none;
 }
-.footer{
+.footer {
     background-color: var(--primery-backgraund-color);
+}
+.footer-logo-acent{
+    color: var(--primery-white);
+}
+.nav-link {
+    color: var(--primery-dark-color);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--primery-acent-color);
+}
+.nav-link.carent {
+    color: var(--primery-acent-color);
+}
+.contact-link {
+    color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--primery-acent-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primery-white);
+}
+.hero-page {
+    background-color: var(--primery-backgraund-color);
+}
+.hero-button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--primery-white);
+    background-color: var(--primery-acent-color);
+}
+.features-title {
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primery-dark-color);
+
+}
+.features {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-dark-color);
+}
+.section-title-team {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-dark-color);
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-dark-color);
+}
+.profession {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
